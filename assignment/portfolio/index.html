@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script defer src="app.js"></script>
+</head>
+
+<body>
+    <div class="navbar-main">
+        <div class="navbar-left">
+            <input type="checkbox" class="checkbox" id="checkbox">
+            <label for="checkbox" class="darkmode-btn">
+                <i class="fas fa-moon"></i>
+                <i class="fas fa-sun"></i>
+                <div class="ball"></div>
+            </label>
+        </div>
+        <div class="navbar-right">
+            <ul class="menu">
+                <a href="#home"><li class="menu-item">Home</li></a>
+                <a href="#about"><li class="menu-item">About Me</li></a>
+                <a href="#projects"><li class="menu-item">Projects</li></a>
+            </ul>
+            <label class="contact-label">
+                <input type="button" value="" class="contact-btn" id="contact-btn">
+                <span>Contact</span>
+            </label>
+        </div>
+
+    </div>
+    <!-- contact 영역 -->
+    <section class="contact">
+        <label for="close-btn" class="close-label">
+            <input type="button" value="" class="close-btn" id="close-btn">
+            <i class="fa-solid fa-xmark fa-2x"></i>
+        </label>
+        <h1>CONTACT</h1>
+        <!-- 프로필 영역 -->
+        <div class="contact-profile">
+            <div class="profile-img-box">
+                <img class="profile-img" src="images/profile2.jpg" alt="profile">
+            </div>
+            <h3>Na Yeongkyeong</h3>
+        </div>
+        <!-- contact 링크 영역 -->
+        <div class="contact-items">
+            <div class="contact-item">
+                <a href="https://github.com/na-yk">
+                    <i class="fa-brands fa-github fa-2x"></i>
+                    <span>GitHub</span>
+                </a>
+            </div>
+            <div class="contact-item">
+                <a href="https://conquer-fear.tistory.com/">
+                    <i class="fa-solid fa-b fa-2x"></i>
+                    <span>Blog</span>
+                </a>
+            </div>
+            <div class="contact-item">
+                <a href="https://www.instagram.com/nk.00.na/">
+                    <i class="fa-brands fa-instagram fa-2x"></i>
+                    <span>Instagram</span>
+                </a>
+            </div>
+            <!-- 이메일 영역 -->
+            <div class="contact-mail">
+                <i class="fa-solid fa-envelope fa-2x"></i>
+                <span> ninghao17@naver.com</span>
+            </div>
+        </div>
+
+    </section>
+    <!-- Home 영역 -->
+    <section class="home" id="home">
+        <canvas class="background" id="background-home"></canvas>
+        <h1 class="home-title">
+            NA YEONGKYEONG<br>
+            안녕하세요 나영경입니다.
+        </h1>
+        <div class="clouds">
+            <img class="cloud cloud01" src="images/cloud01.svg" alt="">
+            <img class="cloud cloud02" src="images/cloud02.svg" alt="">
+            <img class="cloud cloud03" src="images/cloud03.svg" alt="">
+        </div>
+    </section>
+    <!-- About Me 영역 -->
+    <section class="about" id="about">
+        <div class="section-title">
+            <h1>About Me</h1>
+        </div>
+        <div class="about-container">
+            <div class="about-major">
+                <p>중앙대학교 산업보안학/소프트웨어 전공<br>
+                   <br>더 나은 세상을 만드는 데 보탬이 되고자 배워가는 중입니다. 감사합니다.
+                </p>
+            </div>
+            <div class="about-details">
+                <div class="about-left">
+                    <div class="studying">
+                        <h3 class="studying-title">Studying</h3>
+                        <div class="studying-container">
+                            <div class="left-group">
+                                <div class="study">
+                                    <div class="study-name">HTML</div>
+                                    <div class="study-bar">
+                                        <meter min="0" max="100" value="30" low="30" high="70"></meter>
+                                    </div>
+                                </div>
+                                <div class="study">
+                                    <div class="study-name">CSS</div>
+                                    <div class="study-bar">
+                                        <meter min="0" max="100" value="30" low="30" high="70"></meter>
+                                    </div>
+                                </div>
+                                <div class="study">
+                                    <div class="study-name">JavaScript</div>
+                                    <div class="study-bar">
+                                        <meter min="0" max="100" value="20" low="30" high="70"></meter>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="right-group">
+                                <div class="study">
+                                    <div class="study-name">Python</div>
+                                    <div class="study-bar">
+                                        <meter min="0" max="100" value="70" low="30" high="70"></meter>
+                                    </div>
+                                </div>
+                                <div class="study">
+                                    <div class="study-name">Java</div>
+                                    <div class="study-bar">
+                                        <meter min="0" max="100" value="20" low="30" high="70"></meter>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="interest">
+                        <h3 class="interest-title">Interest In</h3>
+                        <div class="interest-container">
+                            <div class="left-group">
+                                <div class="interest-item">
+                                    <i class="fa-solid fa-code"></i>
+                                    <span>Web Development</span>
+                                </div>
+                                <div class="interest-item">
+                                    <i class="fa-solid fa-shield"></i>
+                                    <span>Secure Coding</span>
+                                </div>
+                            </div>
+                            <div class="right-group">
+                                <div class="interest-item">
+                                    <i class="fa-solid fa-money-bill-trend-up"></i>
+                                    <span>Financial DT/Security</span>
+                                </div>
+                                <div class="interest-item">
+                                    <i class="fa-solid fa-memory"></i>
+                                    <span>Digital Forensic</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-detail about-right">
+                    <div class="experience">
+                        <h3 class="experience-title">Experience</h3>
+                        <ul>
+                            <li><b>멋쟁이사자처럼 중앙대학교 10th (2022~)</b>
+                                <br>Back-end Developer
+                            </li>
+                            <li><b>ISANG 프로젝트반 (2022~)</b>
+                                <br>산업보안학과 정보보호학술동아리
+                            </li>
+                            <li><b>대학생 금융보안캠프 수료 (2021)</b></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- Projects 영역 -->
+    <section class="projects" id="projects">
+        <div class="section-title">
+            <h1>Projects</h1>
+        </div>
+        <div class="projects-container">
+            <p>아직 완료된 프로젝트가 없습니다.<br>앞으로 채워질 공간입니다.</p>
+        </div>
+    </section>
+</body>
+</html>

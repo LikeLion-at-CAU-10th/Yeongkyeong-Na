@@ -1,0 +1,36 @@
+section{
+    background-color: rgb(224, 240, 255);
+    width: 400px;
+    border-radius: 2em;
+    padding-top:20px;
+    border: solid black;
+}
+h3{
+    width: 200px;
+    text-align: center;
+    background-color: rgb(255, 244, 197);
+    display: block;
+    margin:auto;
+    border-radius: 1em;
+    padding:5px;
+    font-size:x-large;
+    border: solid black;
+}
+p{
+    padding: 0px 10px 0px 10px;
+    font-size: x-large;
+}
+div{
+    background-color: rgb(159, 176, 255);
+    border-bottom-right-radius: 2em;
+    border-bottom-left-radius: 2em;
+    padding: 10px;
+}
+img{
+    width:200px;
+}
+#cost{
+    font-size: 270%;
+    margin-top:20px;
+    float:right;
+}

@@ -1,0 +1,110 @@
+/* Assignment2 Quiz2 선택과제 */
+.layout-container{
+    display: flex;
+    border-style: dotted;
+    border-color: rgb(188, 188, 188);
+    flex-direction: column;
+    width: 1000px;
+    height: 500px;
+}
+.layout1{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 10%;
+}
+.layout1-block{
+    margin:10px;
+}
+.block1{
+    flex-basis: 20%;
+    background-color: rgb(225, 236, 218);
+}
+.block2{
+    flex-basis: 80%;
+    background-color: rgb(236, 210, 228);
+}
+.layout2{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 10%;
+    justify-content: space-between;
+}
+.layout2-block{
+    background-color:rgb(182, 160, 254);
+    margin: 10px;
+    flex-basis: 33.3%;
+}
+.layout3{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 20%;
+    background-color:rgb(216, 255, 222);
+}
+.layout3-block{
+    background-color:rgb(115, 221, 129);
+    margin: 10px;
+}
+.block6{
+    flex-basis: 40%;
+}
+.block7{
+    flex-basis: 60%;
+}
+.layout4{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 20%;
+    background-color:rgb(255, 223, 245);
+}
+.layout4-block{
+    background-color:rgb(255, 170, 228);
+    margin: 10px;
+    border-radius: 2em;
+    text-align: center;
+}
+.block8{
+    flex-basis: 60%;
+}
+.block9{
+    flex-basis: 40%;
+}
+.layout5{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 40%;
+    background-color:rgb(250, 233, 192);    
+}
+.layout5-block{
+    background-color:rgb(251, 200, 79);
+    margin: 10px;
+}
+.block10{
+    flex-basis: 40%;
+}
+.layout5-first{
+    flex-basis: 60%;
+    display:flex;
+    justify-content:space-between;
+    flex-direction: column;
+}
+.block11{
+    flex-basis: 50%;
+}
+.layout5-second{
+    display:flex;
+    flex-direction: row;
+    flex-basis:50%;
+    justify-content: space-between;
+}
+.block12{
+    flex-basis:50%;
+    background-color:rgb(255, 250, 103);
+    margin:10px;
+    text-align: center;
+}
+.block13{
+    flex-basis:50%;
+    background-color:rgb(255, 250, 103);
+    margin:10px;
+    text-align: center;
+}

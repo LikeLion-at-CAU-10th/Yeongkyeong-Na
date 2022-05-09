@@ -1,0 +1,31 @@
+header{
+    text-align: center;
+    height: 100px;
+}
+.market{
+    display: flex;
+    place-content: center;
+}
+img{
+    width: 300px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.btn{
+    width: 80px;
+    background-color: cornflowerblue;
+    text-align: center;
+    text-decoration: none;
+    color:white;
+    padding:2px;
+    display:block;
+    margin:auto;
+    border-radius: 1em;
+}
+p{
+    text-align: center;
+}
+
+
+
+

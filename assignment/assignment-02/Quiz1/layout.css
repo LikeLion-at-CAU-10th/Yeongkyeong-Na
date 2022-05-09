@@ -1,0 +1,93 @@
+/* Assignment2 Quiz1 필수과제 */
+body{
+    background-color: white;
+    display: flex;
+    justify-content:center;    
+}
+.layout-container{
+    width: 800px;
+    height: 600px;
+    color: rgb(88, 88, 88);
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+}
+.layout-title{
+    display: flex;
+    justify-content: center;
+    flex-basis: 13%;
+}
+.title{
+    background-color: rgb(185, 214, 185);
+    width: 98%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.layout-content{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    flex-basis: 84%
+}
+.layout-posting{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 71.5%;
+    justify-content: space-between
+}
+.layout-recent{
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 49.5%;
+}
+.recent{
+    background-color: white;
+    flex-basis: 32.5%;
+    border-style:solid;
+    border-color:rgb(196, 196, 196);
+    border-width: 1px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.layout-popular{
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 49.5%;
+}
+.popular{
+    background-color: rgb(237, 237, 237);
+    border-style:solid;
+    border-color:rgb(196, 196, 196);
+    border-width: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.popular1{
+    flex-basis: 66%;
+}
+.popular2{
+    flex-basis: 32.5%;
+}
+.layout-user{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis: 25.5%;
+}
+.user{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-style:dashed;
+    border-color:rgb(196, 196, 196);
+    border-width: 1px;
+}
+.user1{
+    flex-basis:30%;
+}
+.user2{
+    flex-basis:68.5%;
+}
