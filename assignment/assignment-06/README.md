@@ -5,15 +5,14 @@
 2. 완료 후, 각 조별 운영진에게 깃헙 링크 제출
 3. README.md 파일을 6주차 폴더 내에 생성하세요!  
 
-<details open>
-    <summary>✅시작하기 전에...</summary>
-    1. 작업할 workspace로 이동한다. -> `$ pwd` 명령어로 올바른 위치인지 확인
-    2. `$ virtualenv myvenv`: myvenv라는 이름의 가상환경 생성 -> `$ ls` 명령어로 myvenv라는 폴더가 생성된 것을 확인
-    3. `$ source myvenv/Scripts/activate`: 가상환경 켜주기 -> 켜지면 (myvenv) 표시가 나옴
-    4. `$ django-admin startproject 프로젝트이름`: django 프로젝트 생성(과제에서는 assignment06)
-    5. `$ cd assignment06` -> `pip install django`: 가상환경 내에서 django 다시 한 번 설치
-    6. `$ python manage.py runserver`: 서버 켜주기!
-</details>
+### ✅시작하기 전에...
+1. 작업할 workspace로 이동한다. -> `$ pwd` 명령어로 올바른 위치인지 확인  
+2. `$ virtualenv myvenv`: myvenv라는 이름의 가상환경 생성 -> `$ ls` 명령어로 myvenv라는 폴더가 생성된 것을 확인
+3. `$ source myvenv/Scripts/activate`: 가상환경 켜주기 -> 켜지면 (myvenv) 표시가 나옴
+4. `$ django-admin startproject 프로젝트이름`: django 프로젝트 생성(과제에서는 assignment06)
+5. `$ cd assignment06` -> `pip install django`: 가상환경 내에서 django 다시 한 번 설치
+6. `$ python manage.py runserver`: 서버 켜주기!
+
 
 ### 결과
 <img width="800" alt="됐다1" src="https://user-images.githubusercontent.com/102007066/169945671-90d565a9-9387-48c9-b381-623db783ff0f.PNG">
