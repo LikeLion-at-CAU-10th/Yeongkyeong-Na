@@ -20,7 +20,7 @@
 <img width="800" alt="진짜다" src="https://user-images.githubusercontent.com/102007066/169945739-7c15ae52-1a53-43ca-926a-8761d2e4f695.PNG">  
   
   
-### <선택 과제> -> 시도중💬
+## <선택 과제> -> 시도중💬
 1. account 앱 생성
 2. account.models에 사용자 정보 관련 model 정의, migration
 3. account.urls 생성 및 프로젝트 root urls와 연결
