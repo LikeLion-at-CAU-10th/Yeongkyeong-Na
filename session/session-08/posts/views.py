@@ -10,7 +10,7 @@ def json_response(request):
 
     if request.method == "GET":
         data = {
-            'name' : 'unan',
+            'name' : 'Yeongkyeong',
             'school' : 'CAU'
         }
 
