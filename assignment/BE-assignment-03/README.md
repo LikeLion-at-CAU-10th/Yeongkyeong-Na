@@ -43,6 +43,6 @@ class Profile(models.Model):
 ## 🤔 바뀐 Profile은 어떻게 되었을까?
 ### Create
 가족 그룹 '오순도순'에 속하도록 나의 프로필을 생성했다.
-<img width="610" alt="프로필 생성" src="https://user-images.githubusercontent.com/102007066/179561845-5d45fd37-01ad-409c-8551-3a6666829024.PNG">
-가족 그룹 '오순도순'에 성공적으로 들어간 것을 확인할 수 있다!😆
+<img width="610" alt="프로필 생성" src="https://user-images.githubusercontent.com/102007066/179561845-5d45fd37-01ad-409c-8551-3a6666829024.PNG">  
+가족 그룹 '오순도순'에 성공적으로 들어간 것을 확인할 수 있다!😆  
 <img width="610" alt="프로필 생성 성공" src="https://user-images.githubusercontent.com/102007066/179562508-6d9fc0d0-7a6e-4723-9230-61bad4dc1df2.PNG">
