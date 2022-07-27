@@ -56,6 +56,8 @@ DJANGO_APPS = [
 PROJECT_APPS = [
     'posts', # let Django recognize 'posts' as an app
     'todomates',
+    'likelions',
+    'users',
 ]
 
 THIRD_PARTY_APPS = [

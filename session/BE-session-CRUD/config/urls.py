@@ -25,7 +25,8 @@ urlpatterns = [
     path('index/', index, name='index'),
     path('', http_response, name="http_response"),
     path('json/', json_response),
-    path('todomates/', include('todomates.urls'))
+    path('todomates/', include('todomates.urls')),
+    path('likelion/', include('likelions.urls'))
 ]
 
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

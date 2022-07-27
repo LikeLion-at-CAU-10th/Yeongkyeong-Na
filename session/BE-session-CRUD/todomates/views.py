@@ -43,12 +43,6 @@ def get_category_all(requests):
     if requests.method == 'GET':
         category_all = Category.objects.all() # 쿼리셋 모양
 
-        ###
-        Category.objects.filter(view_auth = 0) # 여러개
-        get_object_or_404(Category, pk = 2) # 하나만 
-        Category.objects.get(pk = 2) # 하나만
-        ###
-
         # 이쁘게 만들기
         category_json_all=[]
         for category in category_all:
