@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 10기 리스트 </title>
+</head>
+<body>
+
+    {% for member in likelions %}
+    {{ member.name }}
+        {{ member.part }}
+        {{ member.role }}
+        {{ member.major }}
+        <br>
+    {% endfor %}
+
+    {% for likelion in object_list %}
+        <h4> {{ likelion.name }}</h4>
+        <p> {{ likelion.part }}</p>
+        <p> {{ likelion.role }}</p>
+        <p> {{ likelion.major }}</p>
+    {% empty %}
+            <h3> 멤버를 등록해주세요. </h3>
+    {% endfor %}
+</body>
+</html>
